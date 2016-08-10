@@ -15,6 +15,7 @@
 		0A9C11D61D5B79FC009F7C00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9C11D41D5B79FC009F7C00 /* LaunchScreen.storyboard */; };
 		0A9C11E11D5B79FC009F7C00 /* SimpleKVONotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C11E01D5B79FC009F7C00 /* SimpleKVONotificationTests.m */; };
 		0A9C11EC1D5B79FC009F7C00 /* SimpleKVONotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C11EB1D5B79FC009F7C00 /* SimpleKVONotificationUITests.m */; };
+		0A9C11FE1D5B7B79009F7C00 /* NSObject+SimpleKVONotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C11FD1D5B7B79009F7C00 /* NSObject+SimpleKVONotification.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0A9C11E71D5B79FC009F7C00 /* SimpleKVONotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleKVONotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9C11EB1D5B79FC009F7C00 /* SimpleKVONotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleKVONotificationUITests.m; sourceTree = "<group>"; };
 		0A9C11ED1D5B79FC009F7C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9C11FC1D5B7B79009F7C00 /* NSObject+SimpleKVONotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SimpleKVONotification.h"; sourceTree = SOURCE_ROOT; };
+		0A9C11FD1D5B7B79009F7C00 /* NSObject+SimpleKVONotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SimpleKVONotification.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		0A9C11C51D5B79FC009F7C00 /* SimpleKVONotification */ = {
 			isa = PBXGroup;
 			children = (
+				0A9C11FC1D5B7B79009F7C00 /* NSObject+SimpleKVONotification.h */,
+				0A9C11FD1D5B7B79009F7C00 /* NSObject+SimpleKVONotification.m */,
 				0A9C11C91D5B79FC009F7C00 /* AppDelegate.h */,
 				0A9C11CA1D5B79FC009F7C00 /* AppDelegate.m */,
 				0A9C11CC1D5B79FC009F7C00 /* ViewController.h */,
@@ -272,6 +277,7 @@
 			files = (
 				0A9C11CE1D5B79FC009F7C00 /* ViewController.m in Sources */,
 				0A9C11CB1D5B79FC009F7C00 /* AppDelegate.m in Sources */,
+				0A9C11FE1D5B7B79009F7C00 /* NSObject+SimpleKVONotification.m in Sources */,
 				0A9C11C81D5B79FC009F7C00 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
