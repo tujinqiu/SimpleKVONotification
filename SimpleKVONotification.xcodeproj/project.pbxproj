@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A9C11C81D5B79FC009F7C00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C11C71D5B79FC009F7C00 /* main.m */; };
+		0A9C11CB1D5B79FC009F7C00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C11CA1D5B79FC009F7C00 /* AppDelegate.m */; };
+		0A9C11CE1D5B79FC009F7C00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C11CD1D5B79FC009F7C00 /* ViewController.m */; };
+		0A9C11D11D5B79FC009F7C00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9C11CF1D5B79FC009F7C00 /* Main.storyboard */; };
+		0A9C11D31D5B79FC009F7C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9C11D21D5B79FC009F7C00 /* Assets.xcassets */; };
+		0A9C11D61D5B79FC009F7C00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9C11D41D5B79FC009F7C00 /* LaunchScreen.storyboard */; };
+		0A9C11E11D5B79FC009F7C00 /* SimpleKVONotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C11E01D5B79FC009F7C00 /* SimpleKVONotificationTests.m */; };
+		0A9C11EC1D5B79FC009F7C00 /* SimpleKVONotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C11EB1D5B79FC009F7C00 /* SimpleKVONotificationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A9C11DD1D5B79FC009F7C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9C11BB1D5B79FC009F7C00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9C11C21D5B79FC009F7C00;
+			remoteInfo = SimpleKVONotification;
+		};
+		0A9C11E81D5B79FC009F7C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9C11BB1D5B79FC009F7C00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9C11C21D5B79FC009F7C00;
+			remoteInfo = SimpleKVONotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A9C11C31D5B79FC009F7C00 /* SimpleKVONotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleKVONotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9C11C71D5B79FC009F7C00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A9C11C91D5B79FC009F7C00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A9C11CA1D5B79FC009F7C00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A9C11CC1D5B79FC009F7C00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A9C11CD1D5B79FC009F7C00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A9C11D01D5B79FC009F7C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A9C11D21D5B79FC009F7C00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A9C11D51D5B79FC009F7C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A9C11D71D5B79FC009F7C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9C11DC1D5B79FC009F7C00 /* SimpleKVONotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleKVONotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9C11E01D5B79FC009F7C00 /* SimpleKVONotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleKVONotificationTests.m; sourceTree = "<group>"; };
+		0A9C11E21D5B79FC009F7C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9C11E71D5B79FC009F7C00 /* SimpleKVONotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleKVONotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9C11EB1D5B79FC009F7C00 /* SimpleKVONotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleKVONotificationUITests.m; sourceTree = "<group>"; };
+		0A9C11ED1D5B79FC009F7C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A9C11C01D5B79FC009F7C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9C11D91D5B79FC009F7C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9C11E41D5B79FC009F7C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A9C11BA1D5B79FC009F7C00 = {
+			isa = PBXGroup;
+			children = (
+				0A9C11C51D5B79FC009F7C00 /* SimpleKVONotification */,
+				0A9C11DF1D5B79FC009F7C00 /* SimpleKVONotificationTests */,
+				0A9C11EA1D5B79FC009F7C00 /* SimpleKVONotificationUITests */,
+				0A9C11C41D5B79FC009F7C00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A9C11C41D5B79FC009F7C00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A9C11C31D5B79FC009F7C00 /* SimpleKVONotification.app */,
+				0A9C11DC1D5B79FC009F7C00 /* SimpleKVONotificationTests.xctest */,
+				0A9C11E71D5B79FC009F7C00 /* SimpleKVONotificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A9C11C51D5B79FC009F7C00 /* SimpleKVONotification */ = {
+			isa = PBXGroup;
+			children = (
+				0A9C11C91D5B79FC009F7C00 /* AppDelegate.h */,
+				0A9C11CA1D5B79FC009F7C00 /* AppDelegate.m */,
+				0A9C11CC1D5B79FC009F7C00 /* ViewController.h */,
+				0A9C11CD1D5B79FC009F7C00 /* ViewController.m */,
+				0A9C11CF1D5B79FC009F7C00 /* Main.storyboard */,
+				0A9C11D21D5B79FC009F7C00 /* Assets.xcassets */,
+				0A9C11D41D5B79FC009F7C00 /* LaunchScreen.storyboard */,
+				0A9C11D71D5B79FC009F7C00 /* Info.plist */,
+				0A9C11C61D5B79FC009F7C00 /* Supporting Files */,
+			);
+			path = SimpleKVONotification;
+			sourceTree = "<group>";
+		};
+		0A9C11C61D5B79FC009F7C00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A9C11C71D5B79FC009F7C00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A9C11DF1D5B79FC009F7C00 /* SimpleKVONotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A9C11E01D5B79FC009F7C00 /* SimpleKVONotificationTests.m */,
+				0A9C11E21D5B79FC009F7C00 /* Info.plist */,
+			);
+			path = SimpleKVONotificationTests;
+			sourceTree = "<group>";
+		};
+		0A9C11EA1D5B79FC009F7C00 /* SimpleKVONotificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A9C11EB1D5B79FC009F7C00 /* SimpleKVONotificationUITests.m */,
+				0A9C11ED1D5B79FC009F7C00 /* Info.plist */,
+			);
+			path = SimpleKVONotificationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A9C11C21D5B79FC009F7C00 /* SimpleKVONotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9C11F01D5B79FC009F7C00 /* Build configuration list for PBXNativeTarget "SimpleKVONotification" */;
+			buildPhases = (
+				0A9C11BF1D5B79FC009F7C00 /* Sources */,
+				0A9C11C01D5B79FC009F7C00 /* Frameworks */,
+				0A9C11C11D5B79FC009F7C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleKVONotification;
+			productName = SimpleKVONotification;
+			productReference = 0A9C11C31D5B79FC009F7C00 /* SimpleKVONotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A9C11DB1D5B79FC009F7C00 /* SimpleKVONotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9C11F31D5B79FC009F7C00 /* Build configuration list for PBXNativeTarget "SimpleKVONotificationTests" */;
+			buildPhases = (
+				0A9C11D81D5B79FC009F7C00 /* Sources */,
+				0A9C11D91D5B79FC009F7C00 /* Frameworks */,
+				0A9C11DA1D5B79FC009F7C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9C11DE1D5B79FC009F7C00 /* PBXTargetDependency */,
+			);
+			name = SimpleKVONotificationTests;
+			productName = SimpleKVONotificationTests;
+			productReference = 0A9C11DC1D5B79FC009F7C00 /* SimpleKVONotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A9C11E61D5B79FC009F7C00 /* SimpleKVONotificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9C11F61D5B79FC009F7C00 /* Build configuration list for PBXNativeTarget "SimpleKVONotificationUITests" */;
+			buildPhases = (
+				0A9C11E31D5B79FC009F7C00 /* Sources */,
+				0A9C11E41D5B79FC009F7C00 /* Frameworks */,
+				0A9C11E51D5B79FC009F7C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9C11E91D5B79FC009F7C00 /* PBXTargetDependency */,
+			);
+			name = SimpleKVONotificationUITests;
+			productName = SimpleKVONotificationUITests;
+			productReference = 0A9C11E71D5B79FC009F7C00 /* SimpleKVONotificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A9C11BB1D5B79FC009F7C00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Kevin;
+				TargetAttributes = {
+					0A9C11C21D5B79FC009F7C00 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					0A9C11DB1D5B79FC009F7C00 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0A9C11C21D5B79FC009F7C00;
+					};
+					0A9C11E61D5B79FC009F7C00 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0A9C11C21D5B79FC009F7C00;
+					};
+				};
+			};
+			buildConfigurationList = 0A9C11BE1D5B79FC009F7C00 /* Build configuration list for PBXProject "SimpleKVONotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A9C11BA1D5B79FC009F7C00;
+			productRefGroup = 0A9C11C41D5B79FC009F7C00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A9C11C21D5B79FC009F7C00 /* SimpleKVONotification */,
+				0A9C11DB1D5B79FC009F7C00 /* SimpleKVONotificationTests */,
+				0A9C11E61D5B79FC009F7C00 /* SimpleKVONotificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A9C11C11D5B79FC009F7C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9C11D61D5B79FC009F7C00 /* LaunchScreen.storyboard in Resources */,
+				0A9C11D31D5B79FC009F7C00 /* Assets.xcassets in Resources */,
+				0A9C11D11D5B79FC009F7C00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9C11DA1D5B79FC009F7C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9C11E51D5B79FC009F7C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A9C11BF1D5B79FC009F7C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9C11CE1D5B79FC009F7C00 /* ViewController.m in Sources */,
+				0A9C11CB1D5B79FC009F7C00 /* AppDelegate.m in Sources */,
+				0A9C11C81D5B79FC009F7C00 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9C11D81D5B79FC009F7C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9C11E11D5B79FC009F7C00 /* SimpleKVONotificationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9C11E31D5B79FC009F7C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9C11EC1D5B79FC009F7C00 /* SimpleKVONotificationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A9C11DE1D5B79FC009F7C00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9C11C21D5B79FC009F7C00 /* SimpleKVONotification */;
+			targetProxy = 0A9C11DD1D5B79FC009F7C00 /* PBXContainerItemProxy */;
+		};
+		0A9C11E91D5B79FC009F7C00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9C11C21D5B79FC009F7C00 /* SimpleKVONotification */;
+			targetProxy = 0A9C11E81D5B79FC009F7C00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A9C11CF1D5B79FC009F7C00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9C11D01D5B79FC009F7C00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A9C11D41D5B79FC009F7C00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9C11D51D5B79FC009F7C00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A9C11EE1D5B79FC009F7C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A9C11EF1D5B79FC009F7C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A9C11F11D5B79FC009F7C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleKVONotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.ting.SimpleKVONotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A9C11F21D5B79FC009F7C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleKVONotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.ting.SimpleKVONotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A9C11F41D5B79FC009F7C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleKVONotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.ting.SimpleKVONotificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleKVONotification.app/SimpleKVONotification";
+			};
+			name = Debug;
+		};
+		0A9C11F51D5B79FC009F7C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleKVONotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.ting.SimpleKVONotificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleKVONotification.app/SimpleKVONotification";
+			};
+			name = Release;
+		};
+		0A9C11F71D5B79FC009F7C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleKVONotificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.ting.SimpleKVONotificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleKVONotification;
+			};
+			name = Debug;
+		};
+		0A9C11F81D5B79FC009F7C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleKVONotificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.ting.SimpleKVONotificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleKVONotification;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A9C11BE1D5B79FC009F7C00 /* Build configuration list for PBXProject "SimpleKVONotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9C11EE1D5B79FC009F7C00 /* Debug */,
+				0A9C11EF1D5B79FC009F7C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9C11F01D5B79FC009F7C00 /* Build configuration list for PBXNativeTarget "SimpleKVONotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9C11F11D5B79FC009F7C00 /* Debug */,
+				0A9C11F21D5B79FC009F7C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A9C11F31D5B79FC009F7C00 /* Build configuration list for PBXNativeTarget "SimpleKVONotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9C11F41D5B79FC009F7C00 /* Debug */,
+				0A9C11F51D5B79FC009F7C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A9C11F61D5B79FC009F7C00 /* Build configuration list for PBXNativeTarget "SimpleKVONotificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9C11F71D5B79FC009F7C00 /* Debug */,
+				0A9C11F81D5B79FC009F7C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A9C11BB1D5B79FC009F7C00 /* Project object */;
+}
