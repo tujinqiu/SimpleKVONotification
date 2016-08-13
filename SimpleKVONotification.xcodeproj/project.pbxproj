@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		0A9C11C81D5B79FC009F7C00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C11C71D5B79FC009F7C00 /* main.m */; };
 		0A9C11CB1D5B79FC009F7C00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C11CA1D5B79FC009F7C00 /* AppDelegate.m */; };
-		0A9C11CE1D5B79FC009F7C00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C11CD1D5B79FC009F7C00 /* ViewController.m */; };
 		0A9C11D11D5B79FC009F7C00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9C11CF1D5B79FC009F7C00 /* Main.storyboard */; };
 		0A9C11D31D5B79FC009F7C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9C11D21D5B79FC009F7C00 /* Assets.xcassets */; };
 		0A9C11D61D5B79FC009F7C00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9C11D41D5B79FC009F7C00 /* LaunchScreen.storyboard */; };
 		0A9C11E11D5B79FC009F7C00 /* SimpleKVONotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C11E01D5B79FC009F7C00 /* SimpleKVONotificationTests.m */; };
 		0A9C11EC1D5B79FC009F7C00 /* SimpleKVONotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C11EB1D5B79FC009F7C00 /* SimpleKVONotificationUITests.m */; };
 		0A9C11FE1D5B7B79009F7C00 /* NSObject+SimpleKVONotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C11FD1D5B7B79009F7C00 /* NSObject+SimpleKVONotification.m */; };
+		0AF47D011D5F008100757841 /* KTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF47D001D5F008100757841 /* KTTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,6 @@
 		0A9C11C71D5B79FC009F7C00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A9C11C91D5B79FC009F7C00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A9C11CA1D5B79FC009F7C00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0A9C11CC1D5B79FC009F7C00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0A9C11CD1D5B79FC009F7C00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0A9C11D01D5B79FC009F7C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A9C11D21D5B79FC009F7C00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A9C11D51D5B79FC009F7C00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +52,8 @@
 		0A9C11ED1D5B79FC009F7C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A9C11FC1D5B7B79009F7C00 /* NSObject+SimpleKVONotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SimpleKVONotification.h"; sourceTree = SOURCE_ROOT; };
 		0A9C11FD1D5B7B79009F7C00 /* NSObject+SimpleKVONotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SimpleKVONotification.m"; sourceTree = SOURCE_ROOT; };
+		0AF47CFF1D5F008100757841 /* KTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTableViewController.h; sourceTree = "<group>"; };
+		0AF47D001D5F008100757841 /* KTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 				0A9C11FD1D5B7B79009F7C00 /* NSObject+SimpleKVONotification.m */,
 				0A9C11C91D5B79FC009F7C00 /* AppDelegate.h */,
 				0A9C11CA1D5B79FC009F7C00 /* AppDelegate.m */,
-				0A9C11CC1D5B79FC009F7C00 /* ViewController.h */,
-				0A9C11CD1D5B79FC009F7C00 /* ViewController.m */,
+				0AF47CFF1D5F008100757841 /* KTTableViewController.h */,
+				0AF47D001D5F008100757841 /* KTTableViewController.m */,
 				0A9C11CF1D5B79FC009F7C00 /* Main.storyboard */,
 				0A9C11D21D5B79FC009F7C00 /* Assets.xcassets */,
 				0A9C11D41D5B79FC009F7C00 /* LaunchScreen.storyboard */,
@@ -275,7 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A9C11CE1D5B79FC009F7C00 /* ViewController.m in Sources */,
+				0AF47D011D5F008100757841 /* KTTableViewController.m in Sources */,
 				0A9C11CB1D5B79FC009F7C00 /* AppDelegate.m in Sources */,
 				0A9C11FE1D5B7B79009F7C00 /* NSObject+SimpleKVONotification.m in Sources */,
 				0A9C11C81D5B79FC009F7C00 /* main.m in Sources */,
@@ -504,6 +504,7 @@
 				0A9C11F21D5B79FC009F7C00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A9C11F31D5B79FC009F7C00 /* Build configuration list for PBXNativeTarget "SimpleKVONotificationTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +513,7 @@
 				0A9C11F51D5B79FC009F7C00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A9C11F61D5B79FC009F7C00 /* Build configuration list for PBXNativeTarget "SimpleKVONotificationUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +522,7 @@
 				0A9C11F81D5B79FC009F7C00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
